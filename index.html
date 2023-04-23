@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Zeraus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="lobo" href="base/lobo.png"/>
+</head>
+<body>
+    <!--Menu Principal barra de arriba-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="Zeraus"><img src="base/zeraus.png" alt="logo"></a>
+            </div>
+            <nav id="nav" class="responsive">
+              <ul>
+                <li><a href="index.html" onclick="seleccionar ()">Inicio</a></li>
+                <li><a href="#Sobremi" onclick="seleccionar ()" >Sobre mi</a></li>
+                <li><a href="Skills.html" onclick="seleccionar ()">Skills</a></li>
+                <li><a href="CurriculumCV.html" onclick="seleccionar ()" >Curriculum</a></li>
+                <li><a href="Portafolio.html" onclick="seleccionar ()" >Portafolio</a></li>
+                <li><a href="contacto.html" onclick="seleccionar ()" >Contacto</a></li>
+              </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()"></div>
+            <i class="fa-solid fa-bars-staggered"></i>
+        </header>
+    </div>
+    <!--Seleccion de Inicio-->
+    <section class="Inicio" id="inicio">
+    <div class="contenido-banner">
+    <div class="contenedor-img">
+        <img src="base/Cristian.jpg" alt="foto de perfil">
+</div>
+<h1>Cristian Suarez</h1>
+<h2>Design UX/UI</h2>
+<div class="Redes">
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+</div>
+</div>
+<div class="lobo">
+    <img src="base/lobo.png" alt="logo">
+</div>
+</section>
+<!--Seleccion sobre mi-->
+<section id="Sobremi" class="sobremi">
+<div class="contenido-seccion">
+    <h2>Sobre Mi</h2>
+    <p><span> Un diseñador UX\UI</span> enfocado en crear soluciones innovadoras y mejorar la experiencia del usuario. Tengo habilidades en comercio, administración y tecnología que me permiten comprender las necesidades del cliente y crear productos diferenciados. Si buscas un diseñador centrado en el usuario y enfocado en resolver problemas, estoy listo para unirme a tu equipo.</p>
+
+        <div class="fila">
+            <!--Datos personales-->
+            <div class="col">   
+               <h3>Datos personales</h3>
+               <ul>
+                <li>
+                    <strong>Telefono</strong>
+                    3013535090
+                </li>
+                <li>
+                    <strong>Correo</strong>
+                    Cristian.suareztgmail.com
+                </li>
+                <li>
+                    <strong>Ciudad</strong>
+                    Bogota/Colombia
+                </li>
+                <li>
+                    <strong>Cargo</strong>
+                    <span>Diseñador UX\UI</span>
+                </li>
+               </ul>
+
+            </div>
+          <!--Intereses-->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+                <div class="interes">
+                    <i class="fa-light fa-game-console-handheld"></i>
+                    <span>Juegos</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>Musica</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-shield-dog"></i>
+                    <span>Mascotas</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <span>Motos</span>
+                </div>
+            </div>
+        </div>
+        <button>
+            Descargar CV  <i class="fa-solid fa-down-to-bracket"></i>
+            <span class="overlay"></span>
+        </button>       
+        </div>
+        </section>        
+
+ <!--Footer-->
+ <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-regular fa-angles-up"></i>
+    </a>
+    <div class="Redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+    </div>
+ </footer>
+
+ <script src="script.js" ></script>
+</body>
+</html>
