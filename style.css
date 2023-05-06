@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@font-facecenter-element {
+@font-face {
   font-family: titulos;
   src: url(base/URWGeometric-Black.woff); }
 @font-face {
@@ -101,7 +101,7 @@ html {
     align-items: center;
     border: 1px solid white;
     border-radius: 50%;
-    font-size: 31px;
+    font-size: 20px;
     padding: 0.2rem;
     color: #fff; }
     .Inicio .contenido-banner .Redes a:hover {
